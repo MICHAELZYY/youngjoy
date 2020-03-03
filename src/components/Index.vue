@@ -6,8 +6,7 @@
           <el-col :span="12">
             <div class="grid-content bg-purple" id="title">Young Joy`s Home</div>
           </el-col>
-          
-          <el-col :span="4">首页</el-col>
+          <el-col :span="4"><router-link to='/index'>首页</router-link></el-col>
           <el-col :span="4"><router-link to='/tags'>标签</router-link></el-col>
           <el-col :span="4">生活</el-col>
         </el-row>
@@ -23,8 +22,21 @@
           </el-col>
           <el-col :span="24">
             <div class="grid-content bg-purple-dark">
-              <div>标题1</div>今天是个好天气
+              <div>标题1</div>
+              今天是个好天气
             </div>
+            <el-divider></el-divider>
+          </el-col>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">今天是个好天气</div>
+            <el-divider></el-divider>
+          </el-col>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">今天是个好天气</div>
+            <el-divider></el-divider>
+          </el-col>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">今天是个好天气</div>
             <el-divider></el-divider>
           </el-col>
           <el-col :span="24">
@@ -52,7 +64,6 @@
     <el-container>
       <el-footer>
     <el-pagination background layout="prev, pager, next" :total="1000"></el-pagination>
-
       </el-footer>
     </el-container>
   </div>
@@ -102,7 +113,7 @@ ul > li {
 }
 
 body > .el-container {
-  margin-bottom: 20px;
+  margin-bottom: 00px;
 }
 
 .el-pagination {
