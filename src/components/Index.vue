@@ -1,18 +1,5 @@
 <template>
-  <div>
-    <el-container>
-      <el-header>
-        <el-row>
-          <el-col :span="12">
-            <div class="grid-content bg-purple" id="title">Young Joy`s Home</div>
-          </el-col>
-          <el-col :span="4"><router-link to='/index'>首页</router-link></el-col>
-          <el-col :span="4"><router-link to='/tags'>标签</router-link></el-col>
-          <el-col :span="4">生活</el-col>
-        </el-row>
-      </el-header>
-    </el-container>
-
+  <div class='main'>
     <el-container>
       <el-main>
         <el-row>
@@ -84,6 +71,13 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.main{
+  display: block;
+  margin:0 auto;
+  width: 70%;
+  background-color: rgb(179, 226, 10);
+}
+
 .el-header {
   background-color: #409EFF;
   color: #333;
