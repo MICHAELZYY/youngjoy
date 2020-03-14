@@ -1,5 +1,6 @@
 <template>
-  <div class='header'>
+  <div class='headbar'>
+    <div class='header'>
      <el-container>
       <el-header>
         <el-row>
@@ -8,10 +9,11 @@
           </el-col>
           <el-col :span="4"><router-link to='/index'>首页</router-link></el-col>
           <el-col :span="4"><router-link to='/tags'>标签</router-link></el-col>
-          <el-col :span="4">生活</el-col>
+          <el-col :span="4"><router-link to='/life'>生活</router-link></el-col>
         </el-row>
       </el-header>
     </el-container>
+    </div>
   </div>
 </template>
 
@@ -27,14 +29,20 @@ export default {
   text-align: center
 } */
 
-.header {
-  background-color: #409EFF;
-  color: #333;
-  text-align: center;
+.headbar {
+  background-color: #ffffff;
+  line-height: 60px;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.headbar > .header {
   font-size: 150%;
-  line-height: 100px;
-  height: 100px;
-  /* margin-bottom: 100px; */
+  text-align: left;
+  color: #333;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
 }
 
 </style>
