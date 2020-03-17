@@ -19,10 +19,9 @@
 </template>
 
 <script>
-import tags from '@/components/tags'
 
 export default {
-  name: "tags",
+  name: "blogTags",
   data() {
     return {
       msg: "hello man",

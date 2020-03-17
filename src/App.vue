@@ -6,19 +6,16 @@
 </template>
 
 <script>
-import Header from '@/components/header'
+
 export default {
   name: 'App',
-  components:{
-    Header: Header
-  }
-  
+
 }
 </script>
 
 <style>
 html,body,#app  {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */

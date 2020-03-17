@@ -46,6 +46,7 @@ export default {
 
 .content {
   text-align: center;
+  background-color: #ffffff;
 }
 
 .article-content {

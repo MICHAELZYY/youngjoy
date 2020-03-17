@@ -1,14 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Index from '@/components/Index'
-import Tags from '@/components/tags'
-import Header from '@/components/header'
-import Layout from '@/components/layout'
-import Footer from '@/components/footer'
-import Sidebar from '@/components/sidebar'
 import Article from '@/components/article'
-
+import {blogHeader, blogFooter, blogHome, blogSidebar, blogTags, blogIndex} from '@/layout'
 Vue.use(Router)
 
 export default new Router({
@@ -17,42 +10,42 @@ export default new Router({
       path: '/',
       name: 'layout',
       redirect: '/index',
-      component: Layout,
+      component: blogIndex,
       children: [
         {
           path: 'index',
           components: {
-            header: Header,
-            main: Index,
-            footer: Footer,
-            sidebar: Sidebar
+            header: blogHeader,
+            main: blogHome,
+            footer: blogFooter,
+            sidebar: blogSidebar
           }
         },
         {
           path: 'tags',
           components: {
-            header: Header,
-            main: Tags,
-            footer: Footer,
-            sidebar: Sidebar
+            header: blogHeader,
+            main: blogTags,
+            footer: blogFooter,
+            sidebar: blogSidebar
           }
         },
         {
           path: 'life',
           components: {
-            header: Header,
-            main: Tags,
-            footer: Footer,
-            sidebar: Sidebar
+            header: blogHeader,
+            main: blogTags,
+            footer: blogFooter,
+            sidebar: blogSidebar
           }
         },
         {
           path: 'article/:post_id',
           components: {
-            header: Header,
+            header: blogHeader,
             main: Article,
-            footer: Footer,
-            sidebar: Sidebar
+            footer: blogFooter,
+            sidebar: blogSidebar
           }
         }
       ]

@@ -14,7 +14,7 @@
 
 <script>
 export default {
-    name: "Layout"
+    name: "blogIndex"
 }
 </script>
 
@@ -25,13 +25,13 @@ export default {
 .container{
   margin-top:0px;
   margin:0 auto;
-  width: 70%;
+  width: 60%;
 }
 
 .main-container{
   width: 73%;
   display:inline-block;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   margin: 0px;
   padding: 0px;
 }

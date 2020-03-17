@@ -3,7 +3,7 @@
     <article class='excerpt'>
       <header><h2>
       <a class="label label-important" href="https://cuiqingcai.com/category/technique/python">Python<i class="label-arrow"></i></a>
-        <router-link to='/article/1'>博客搭建过程</router-link></h2></header>
+        <router-link to='/article/1'>hello world</router-link></h2></header>
       <div class='focus'><a href="">
         <img src="./../assets/test_pic.jpg" alt="">
         </a></div>
@@ -18,7 +18,7 @@
     <article class='excerpt'>
       <header><h2>
       <a class="label label-important" href="https://cuiqingcai.com/category/technique/python">Python<i class="label-arrow"></i></a>
-        <router-link to='/article/1'>博客搭建过程</router-link></h2></header>
+        <router-link to='/article/1'>hello world</router-link></h2></header>
       <div class='focus'><a href="">
         <img src="./../assets/test_pic.jpg" alt="">
         </a></div>
@@ -33,7 +33,7 @@
     <article class='excerpt'>
       <header><h2>
       <a class="label label-important" href="https://cuiqingcai.com/category/technique/python">Python<i class="label-arrow"></i></a>
-        <router-link to='/article/1'>博客搭建过程</router-link></h2></header>
+        <router-link to='/article/1'>hello world</router-link></h2></header>
       <div class='focus'><a href="">
         <img src="./../assets/test_pic.jpg" alt="">
         </a></div>
@@ -46,7 +46,7 @@
       </p>
     </article>
     <article class='excerpt'>
-      <header><h2><router-link to='/article/1'>博客搭建过程</router-link></h2></header></h2></header>
+      <header><h2><router-link to='/article/1'>hello world</router-link></h2></header></h2></header>
       <div class='focus'><a href=""><img src="./../assets/test_pic.jpg" alt=""></a></div>
       <span class='note'>在运行一个项目的时候，我们经常会遇到设置不同环境的需求，如设置是开发环境、测试环境还是生产环境，或者在某些设置里面可能还需要设置一些变量开关，如设置调试开关、日志开关、功能开关等等。 这些变量其实就是在项目运行时我们给项目设置的一些参数。这些参数一般情况来说，可以有两种设置方法，</span>
       <p class='auth-span'>
@@ -60,10 +60,10 @@
 </template>
 
 <script>
-import tags from '@/components/tags'
+
 
 export default {
-  name: "Index",
+  name: "blogHome",
   data() {
     return {
       msg: "hello man",
